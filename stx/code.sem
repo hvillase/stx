@@ -1,0 +1,21 @@
+-- STX live coding mini-language
+
+-- this is a comment
+-- uncomment the next lines by deleting the doble line --
+-- ctrl + enter to evaluate the code
+
+-- => stx3 ~ 2; -- loop
+-- => stx3 : [2 1]; -- sampler w/impulse as trig
+-- => stx3 : 1; -- sampler one trig
+-- => [2 1]; -- impulse
+-- => 0.2 stx3 : 1; -- sample and hold one trig
+-- => 0.2 stx1 ~ 1; -- sample and hold loop
+-- => 0.2 stx3 : [2 1]; -- sampe and hold w/impulse as trig
+-- => stx3 0 0; -- slice loop
+-- => stx3 [6 1] 0.6; -- slice w/impulse as trig
+-- => <> stx2 : 1, stx1 : 2, stx4 : 4; -- mixer, each code line separated by coma
+-- => *0.3 stx3 : 1; -- signal mul
+-- => *1 stx8 [4 1] | [0.25 0.5]; -- slice + phasor
+
+
+
